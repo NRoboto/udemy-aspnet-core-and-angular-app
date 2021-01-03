@@ -26,4 +26,8 @@ export class HomeComponent implements OnInit {
       .subscribe((users: User[]) => this.users = users);
   }
 
+  cancelRegisterMode(event: boolean) {
+    this.registerMode = event;
+  }
+
 }
