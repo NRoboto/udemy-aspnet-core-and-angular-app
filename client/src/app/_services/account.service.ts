@@ -35,7 +35,7 @@ export class AccountService {
         }
         return user;
       })
-    )
+    );
   }
 
   setCurrentUser(user: User) {
